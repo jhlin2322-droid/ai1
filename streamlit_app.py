@@ -9,11 +9,11 @@ st.title("가톨릭관동대학교 연수 안내 페이지입니다.")
 st.title("이곳은 진실관입니다.")
 
 # 2. 부제목
-st.subheader("이 페이지는 다양한 Streamlit 기능을 보여줍니다.")
+st.subheader("전문성 연수")
 
 # 3. 판다스 데이터프레임 기반 표 출력
 df = pd.DataFrame({
-    "Name": ["Alice", "Bob", "Charlie"],
+    "Name": ["전혜린", "Bob", "Charlie"],
     "Age": [24, 30, 29],
     "Country": ["Korea", "USA", "UK"]
 })
@@ -24,7 +24,7 @@ st.dataframe(df)
 st.write("HTML 예제")
 st.markdown(
     """
-    <div style="color: blue; font-size: 20px;">
+    <div style="color: yellow; font-size: 50px;">
         HTML을 활용한 예시 텍스트입니다.
     </div>
     """,
